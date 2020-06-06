@@ -2,7 +2,7 @@ from score import *
 from math import log, sqrt
 ALPHA = 1
 BETA = 0.75
-GAMMA = 0
+GAMMA = 0.15
 
 def generateInvertedIndex():
     invertedIndex = {}
