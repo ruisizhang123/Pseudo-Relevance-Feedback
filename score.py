@@ -36,7 +36,7 @@ def cal_idf(doc_dict):
 
 def bm25(query, doc, idf, avg_doc_len=374):
     k1 = 1.2
-    k2 = 100
+    k2 = 1
     b = 0.75
     score = 0.0
     for word in query:
