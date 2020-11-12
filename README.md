@@ -19,6 +19,8 @@ Python >= 3.0
 
 #### Dataset Overview
 
+You can get dataset [here](https://www.kaggle.com/c/ee448-project2-query-expansion) or use you own data.
+
 1. `./data/query.txt`: `query_id \t query_text`
 
 2. `./data/doc.txt`: `document_id \t document_text`
